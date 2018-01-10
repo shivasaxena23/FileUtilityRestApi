@@ -1,0 +1,433 @@
+ubuntu@hyperworks-imaging:~$ sudo docker run -i -t --rm -p 8080:8080 shivasaxena23/hwi-target
+Using CATALINA_BASE:   /usr/local/tomcat
+Using CATALINA_HOME:   /usr/local/tomcat
+Using CATALINA_TMPDIR: /usr/local/tomcat/temp
+Using JRE_HOME:        /docker-java-home/jre
+Using CLASSPATH:       /usr/local/tomcat/bin/bootstrap.jar:/usr/local/tomcat/bin/tomcat-juli.jar
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.82
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 29 2017 12:23:15 UTC
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.82.0
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.4.0-36-generic
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_141-8u141-b15-1~deb9u1-b15
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/local/tomcat
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/local/tomcat
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/usr/local/tomcat/endorsed
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/local/tomcat
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/local/tomcat
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Jan 10, 2018 8:12:00 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.14 using APR version 1.5.2.
+Jan 10, 2018 8:12:00 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jan 10, 2018 8:12:00 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.1.0f  25 May 2017)
+Jan 10, 2018 8:12:00 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jan 10, 2018 8:12:00 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 792 ms
+Jan 10, 2018 8:12:00 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 10, 2018 8:12:00 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.82
+Jan 10, 2018 8:12:00 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/ChekOutWiz-Tensorflow-Service.war
+Jan 10, 2018 8:12:03 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(/usr/local/tomcat/webapps/ChekOutWiz-Tensorflow-Service/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Jan 10, 2018 8:12:03 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(/usr/local/tomcat/webapps/ChekOutWiz-Tensorflow-Service/WEB-INF/lib/javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 10, 2018 8:12:04 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 10, 2018 8:16:15 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [249,961] milliseconds.
+Jan 10, 2018 8:16:16 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/ChekOutWiz-Tensorflow-Service.war has finished in 255,618 ms
+Jan 10, 2018 8:16:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/host-manager
+Jan 10, 2018 8:16:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/host-manager has finished in 166 ms
+Jan 10, 2018 8:16:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/ROOT
+Jan 10, 2018 8:16:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/ROOT has finished in 39 ms
+Jan 10, 2018 8:16:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/manager
+Jan 10, 2018 8:16:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/manager has finished in 76 ms
+Jan 10, 2018 8:16:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/examples
+Jan 10, 2018 8:16:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/examples has finished in 217 ms
+Jan 10, 2018 8:16:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/docs
+Jan 10, 2018 8:16:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/docs has finished in 35 ms
+Jan 10, 2018 8:16:16 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jan 10, 2018 8:16:16 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jan 10, 2018 8:16:16 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 256331 ms
+Jan 10, 2018 8:16:17 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 2 * Server has received a request on thread http-apr-8080-exec-2
+2 > POST http://localhost:8080/ChekOutWiz-Tensorflow-Service/webapi/GetCategory
+2 > accept: */*
+2 > content-length: 161671
+2 > content-type: multipart/form-data; boundary=------------------------85cdbb1ab7178c66
+2 > expect: 100-continue
+2 > host: localhost:8080
+2 > user-agent: curl/7.47.0
+
+Jan 10, 2018 8:16:17 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 1 * Server has received a request on thread http-apr-8080-exec-1
+1 > POST http://localhost:8080/ChekOutWiz-Tensorflow-Service/webapi/GetCategory
+1 > accept: */*
+1 > content-length: 161671
+1 > content-type: multipart/form-data; boundary=------------------------c72db37de76fc9e8
+1 > expect: 100-continue
+1 > host: localhost:8080
+1 > user-agent: curl/7.47.0
+
+Labels and graph loaded
+Labels and graph loaded
+image loaded
+image loaded
+2018-01-10 08:16:18.836532: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2018-01-10 08:16:20.367755: W tensorflow/core/framework/op_def_util.cc:334] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+3633
+3629
+Jan 10, 2018 8:16:21 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 1 * Server responded with a response on thread http-apr-8080-exec-2
+1 < 200
+1 < Content-Type: text/plain
+
+Jan 10, 2018 8:16:21 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 2 * Server responded with a response on thread http-apr-8080-exec-1
+2 < 200
+2 < Content-Type: text/plain
+
+Jan 10, 2018 8:18:05 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 3 * Server has received a request on thread http-apr-8080-exec-5
+3 > POST http://localhost:8080/ChekOutWiz-Tensorflow-Service/webapi/GetCategory
+3 > accept: */*
+3 > content-length: 161671
+3 > content-type: multipart/form-data; boundary=------------------------61fdb5835ba0854a
+3 > expect: 100-continue
+3 > host: localhost:8080
+3 > user-agent: curl/7.47.0
+
+Labels and graph loaded
+image loaded
+1115
+Jan 10, 2018 8:18:06 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 3 * Server responded with a response on thread http-apr-8080-exec-5
+3 < 200
+3 < Content-Type: text/plain
+
+Jan 10, 2018 8:18:08 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 4 * Server has received a request on thread http-apr-8080-exec-7
+4 > POST http://localhost:8080/ChekOutWiz-Tensorflow-Service/webapi/GetCategory
+4 > accept: */*
+4 > content-length: 161671
+4 > content-type: multipart/form-data; boundary=------------------------8ed47ca1130f538c
+4 > expect: 100-continue
+4 > host: localhost:8080
+4 > user-agent: curl/7.47.0
+
+Labels and graph loaded
+image loaded
+1291
+Jan 10, 2018 8:18:10 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 4 * Server responded with a response on thread http-apr-8080-exec-7
+4 < 200
+4 < Content-Type: text/plain
+
+Jan 10, 2018 8:24:53 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 5 * Server has received a request on thread http-apr-8080-exec-9
+5 > POST http://localhost:8080/ChekOutWiz-Tensorflow-Service/webapi/GetCategory
+5 > accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+5 > connection: keep-alive
+5 > content-length: 161739
+5 > content-type: multipart/form-data; boundary=Boundary_1_1277009227_1515572693833
+5 > host: localhost:8080
+5 > mime-version: 1.0
+5 > user-agent: Jersey/2.14 (HttpUrlConnection 1.8.0_151)
+
+Labels and graph loaded
+image loaded
+1709
+Jan 10, 2018 8:24:55 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 5 * Server responded with a response on thread http-apr-8080-exec-9
+5 < 200
+5 < Content-Type: text/plain
+
+Jan 10, 2018 8:27:17 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 6 * Server has received a request on thread http-apr-8080-exec-2
+6 > POST http://192.168.198.5:8080/ChekOutWiz-Tensorflow-Service/webapi/GetCategory
+6 > accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+6 > connection: keep-alive
+6 > content-length: 161737
+6 > content-type: multipart/form-data; boundary=Boundary_1_898557489_1515572801151
+6 > host: 192.168.198.5:8080
+6 > mime-version: 1.0
+6 > user-agent: Jersey/2.14 (HttpUrlConnection 1.8.0_151)
+
+Labels and graph loaded
+image loaded
+1011
+Jan 10, 2018 8:27:18 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 6 * Server responded with a response on thread http-apr-8080-exec-2
+6 < 200
+6 < Content-Type: text/plain
+
+Jan 10, 2018 8:31:06 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 7 * Server has received a request on thread http-apr-8080-exec-4
+7 > POST http://192.168.198.5:8080/ChekOutWiz-Tensorflow-Service/webapi/GetCategory
+7 > accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+7 > connection: keep-alive
+7 > content-length: 161737
+7 > content-type: multipart/form-data; boundary=Boundary_1_898557489_1515573029559
+7 > host: 192.168.198.5:8080
+7 > mime-version: 1.0
+7 > user-agent: Jersey/2.14 (HttpUrlConnection 1.8.0_151)
+
+Labels and graph loaded
+image loaded
+1412
+Jan 10, 2018 8:31:07 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 7 * Server responded with a response on thread http-apr-8080-exec-4
+7 < 200
+7 < Content-Type: text/plain
+
+Jan 10, 2018 9:03:34 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 8 * Server has received a request on thread http-apr-8080-exec-5
+8 > POST http://192.168.198.5:8080/ChekOutWiz-Tensorflow-Service/webapi/GetCategory
+8 > accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+8 > connection: keep-alive
+8 > content-length: 161737
+8 > content-type: multipart/form-data; boundary=Boundary_1_898557489_1515574977613
+8 > host: 192.168.198.5:8080
+8 > mime-version: 1.0
+8 > user-agent: Jersey/2.14 (HttpUrlConnection 1.8.0_151)
+
+Labels and graph loaded
+image loaded
+2022
+Jan 10, 2018 9:03:36 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 8 * Server responded with a response on thread http-apr-8080-exec-5
+8 < 200
+8 < Content-Type: text/plain
+
+^CJan 10, 2018 9:45:23 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Jan 10, 2018 9:45:23 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Jan 10, 2018 9:45:23 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jan 10, 2018 9:45:23 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Jan 10, 2018 9:45:23 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Jan 10, 2018 9:45:23 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Jan 10, 2018 9:45:23 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+ubuntu@hyperworks-imaging:~$ sudo docker run -i -t --rm -p 8080:8080 shivasaxena23/hwi-target
+Using CATALINA_BASE:   /usr/local/tomcat
+Using CATALINA_HOME:   /usr/local/tomcat
+Using CATALINA_TMPDIR: /usr/local/tomcat/temp
+Using JRE_HOME:        /docker-java-home/jre
+Using CLASSPATH:       /usr/local/tomcat/bin/bootstrap.jar:/usr/local/tomcat/bin/tomcat-juli.jar
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.82
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 29 2017 12:23:15 UTC
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.82.0
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.4.0-36-generic
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_141-8u141-b15-1~deb9u1-b15
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/local/tomcat
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/local/tomcat
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/usr/local/tomcat/endorsed
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/local/tomcat
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/local/tomcat
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Jan 10, 2018 9:45:27 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.14 using APR version 1.5.2.
+Jan 10, 2018 9:45:27 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jan 10, 2018 9:45:27 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.1.0f  25 May 2017)
+Jan 10, 2018 9:45:27 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jan 10, 2018 9:45:27 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 809 ms
+Jan 10, 2018 9:45:27 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 10, 2018 9:45:27 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.82
+Jan 10, 2018 9:45:27 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/ChekOutWiz-Tensorflow-Service.war
+Jan 10, 2018 9:45:30 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(/usr/local/tomcat/webapps/ChekOutWiz-Tensorflow-Service/WEB-INF/lib/el-api-2.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Jan 10, 2018 9:45:30 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(/usr/local/tomcat/webapps/ChekOutWiz-Tensorflow-Service/WEB-INF/lib/javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 10, 2018 9:45:32 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 10, 2018 9:50:41 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [309,203] milliseconds.
+Jan 10, 2018 9:50:42 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/ChekOutWiz-Tensorflow-Service.war has finished in 314,623 ms
+Jan 10, 2018 9:50:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/host-manager
+Jan 10, 2018 9:50:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/host-manager has finished in 194 ms
+Jan 10, 2018 9:50:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/ROOT
+Jan 10, 2018 9:50:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/ROOT has finished in 34 ms
+Jan 10, 2018 9:50:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/manager
+Jan 10, 2018 9:50:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/manager has finished in 46 ms
+Jan 10, 2018 9:50:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/examples
+Jan 10, 2018 9:50:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/examples has finished in 288 ms
+Jan 10, 2018 9:50:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/docs
+Jan 10, 2018 9:50:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/docs has finished in 68 ms
+Jan 10, 2018 9:50:43 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jan 10, 2018 9:50:43 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jan 10, 2018 9:50:43 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 315381 ms
+Jan 10, 2018 9:50:43 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 1 * Server has received a request on thread http-apr-8080-exec-1
+1 > POST http://192.168.198.5:8080/ChekOutWiz-Tensorflow-Service/webapi/GetCategory
+1 > accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+1 > connection: keep-alive
+1 > content-length: 161737
+1 > content-type: multipart/form-data; boundary=Boundary_1_898557489_1515577728957
+1 > host: 192.168.198.5:8080
+1 > mime-version: 1.0
+1 > user-agent: Jersey/2.14 (HttpUrlConnection 1.8.0_151)
+
+Labels and graph loaded
+image loaded
+2018-01-10 09:50:44.434722: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2018-01-10 09:50:45.315174: W tensorflow/core/framework/op_def_util.cc:334] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+2675
+Jan 10, 2018 9:50:46 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 1 * Server responded with a response on thread http-apr-8080-exec-1
+1 < 200
+1 < Content-Type: text/plain
+
+Jan 10, 2018 9:52:17 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 2 * Server has received a request on thread http-apr-8080-exec-3
+2 > POST http://192.168.198.5:8080/ChekOutWiz-Tensorflow-Service/webapi/GetCategory
+2 > accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+2 > connection: keep-alive
+2 > content-length: 161737
+2 > content-type: multipart/form-data; boundary=Boundary_1_898557489_1515577901128
+2 > host: 192.168.198.5:8080
+2 > mime-version: 1.0
+2 > user-agent: Jersey/2.14 (HttpUrlConnection 1.8.0_151)
+
+Labels and graph loaded
+image loaded
+1771
+Jan 10, 2018 9:52:19 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 2 * Server responded with a response on thread http-apr-8080-exec-3
+2 < 200
+2 < Content-Type: text/plain
+
+Jan 10, 2018 9:53:00 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 3 * Server has received a request on thread http-apr-8080-exec-5
+3 > POST http://192.168.198.5:8080/ChekOutWiz-Tensorflow-Service/webapi/GetCategory
+3 > accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+3 > connection: keep-alive
+3 > content-length: 161737
+3 > content-type: multipart/form-data; boundary=Boundary_1_898557489_1515577944103
+3 > host: 192.168.198.5:8080
+3 > mime-version: 1.0
+3 > user-agent: Jersey/2.14 (HttpUrlConnection 1.8.0_151)
+
+Labels and graph loaded
+image loaded
+1517
+Jan 10, 2018 9:53:02 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 3 * Server responded with a response on thread http-apr-8080-exec-5
+3 < 200
+3 < Content-Type: text/plain
+
+Jan 10, 2018 9:55:19 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 4 * Server has received a request on thread http-apr-8080-exec-7
+4 > POST http://192.168.198.5:8080/ChekOutWiz-Tensorflow-Service/webapi/GetCategory
+4 > accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+4 > connection: keep-alive
+4 > content-length: 161737
+4 > content-type: multipart/form-data; boundary=Boundary_1_898557489_1515578082618
+4 > host: 192.168.198.5:8080
+4 > mime-version: 1.0
+4 > user-agent: Jersey/2.14 (HttpUrlConnection 1.8.0_151)
+
+Labels and graph loaded
+image loaded
+1643
+Jan 10, 2018 9:55:21 AM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 4 * Server responded with a response on thread http-apr-8080-exec-7
+4 < 200
+4 < Content-Type: text/plain
